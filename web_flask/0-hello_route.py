@@ -11,7 +11,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 
-@app.route("/", strict_slashes=False)
+@app.route("/airbnb-onepage/", strict_slashes=False)
 def hello():
     """This displays 'Hello HBNB!'"""
     return render_template("5-number.html")
