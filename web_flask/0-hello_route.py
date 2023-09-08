@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-"""#!/usr/bin/python3"""
 """
 This script starts a Flask web application:
 That listens on 0.0.0.0, port 5000
@@ -7,10 +6,8 @@ Routes:
 /: display "Hello HBNB!"
 You must use the option strict_slashes=False in your route definition
 """
-
 from flask import Flask
-
-app=Flask"(__name__)"
+app = Flask"(__name__)"
 
 
 @app.route('/', strict_slashes=False)
