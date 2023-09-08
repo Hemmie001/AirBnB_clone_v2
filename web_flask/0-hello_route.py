@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/python3
 """
 This script starts a Flask web application:
 That listens on 0.0.0.0, port 5000
