@@ -7,14 +7,13 @@ Routes:
 You must use the option strict_slashes=False in your route definition
 """
 from flask import Flask
-
 app = Flask(__name__)
 
 
 @app.route('/airbnb-onepage/', strict_slashes=False)
 def hello():
     """This displays 'Hello HBNB!'"""
-    return "Hello HBNB"
+    return "Hello HBNB!"
 
 
 if __name__ == "__main__":
