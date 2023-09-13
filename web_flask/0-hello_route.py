@@ -13,7 +13,7 @@ app = Flask(__name__)
 @app.route('/airbnb-onepage/', strict_slashes=False)
 def hello_hbnb():
     """This displays 'Hello HBNB!'"""
-    return "Hello_hbnb!"
+    return "Hello hbnb!"
 
 
 if __name__ == "__main__":
