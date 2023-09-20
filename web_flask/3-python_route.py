@@ -5,10 +5,10 @@ That listens on 0.0.0.0, port 5000
 and routes:
 1 /: display “Hello HBNB!”
 2 /hbnb: display “HBNB”
-3 /c/<text>: display “C ”, followed by the value of the text 
-  variable (replace underscore _ symbols with a space )
-4 /python/(<text>): display “Python ”, followed by the value of the 
-  text variable (replace underscore _ symbols with a space )
+3 /c/<text>: display “C ”, followed by the value of the text
+variable (replace underscore _ symbols with a space )
+4 /python/(<text>): display “Python ”, followed by the value of the
+text variable (replace underscore _ symbols with a space )
 The default value of text is “is cool”
 My route defination uses strict_slashes=False in your route definition
 """
