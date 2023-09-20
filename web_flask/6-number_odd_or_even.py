@@ -5,14 +5,14 @@ That listens on 0.0.0.0, port 5000
 and routes:
 1 /: display “Hello HBNB!”
 2 /hbnb: display “HBNB”
-3 /c/<text>: display “C ”, followed by the value of the text 
-  variable (replace underscore _ symbols with a space )
-4 /python/(<text>): display “Python ”, followed by the value of the 
-  text variable (replace underscore _ symbols with a space )
+3 /c/<text>: display “C ”, followed by the value of the text
+variable (replace underscore _ symbols with a space )
+4 /python/(<text>): display “Python ”, followed by the value of the
+text variable (replace underscore _ symbols with a space )
 5 /number/<n>: display “n is a number” only if n is an integer
 6 /number/<n>: display “n is a number” only if n is an integer
 7 /number_template/<n>: display a HTML page only if n is an integer:
-  H1 tag: “Number: n” inside the tag BODY
+H1 tag: “Number: n” inside the tag BODY
 8   /number_odd_or_even/<n>: display a HTML page only if n is an integer:
 H1 tag: “Number: n is even|odd” inside the tag BODY
 You must use the option strict_slashes=False in your route definition
