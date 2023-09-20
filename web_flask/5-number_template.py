@@ -6,10 +6,10 @@ That listens on 0.0.0.0, port 5000
 and routes:
 1 /: display “Hello HBNB!”
 2 /hbnb: display “HBNB”
-3 /c/<text>: display “C ”, followed by the value of the text 
-  variable (replace underscore _ symbols with a space )
-4 /python/(<text>): display “Python ”, followed by the value of the 
-  text variable (replace underscore _ symbols with a space )
+3 /c/<text>: display “C ”, followed by the value of the text
+variable (replace underscore _ symbols with a space )
+4 /python/(<text>): display “Python ”, followed by the value of the
+text variable (replace underscore _ symbols with a space )
 5 /number/<n>: display “n is a number” only if n is an integer
 The default value of text is “is cool”
 H1 tag: “Number: n” inside the tag BODY
