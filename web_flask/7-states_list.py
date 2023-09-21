@@ -12,11 +12,11 @@ app = Flask(__name__)
 @app.route("/states_list", strict_slashes=False)
 def states_list():
     """displays a HTML page: (inside the <body> tag)
-       -> h1: "States"
-       -> ul: list of all 'State' objects present in 'DBStorage'
-              sorted by name (A-Z)
-            -> li: description of one 'State':
-                   "<state.id>: <b><state.name><b>"
+	-> h1: "States"
+	-> ul: list of all 'State' objects present in 'DBStorage'
+	sorted by name (A-Z)
+	-> li: description of one 'State':
+	"<state.id>: <b><state.name><b>"
     """
     states = storage.all(State)
     return render_template("7-states_list.html", states=states)
