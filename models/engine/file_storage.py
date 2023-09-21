@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """This module defines a class to manage file storage for hbnb clone"""
+from models.base_model import Base
 import json
 from models.base_model import BaseModel
 from models.user import User
@@ -8,6 +9,9 @@ from models.city import City
 from models.amenity import Amenity
 from models.place import Place
 from models.review import Review
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker, scoped_session
+from os import getenv
 
 
 classes = {"BaseModel": BaseModel, "User": User, "State": State, "City": City,
